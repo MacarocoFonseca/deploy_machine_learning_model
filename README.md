@@ -21,13 +21,16 @@ poetry add <package>
 ```
 5-Add notebook kernel so, that dependencies are managed automatically
 ```commandline
-python -m ipykernel install --user --name=tomas_ml_kernel
+python -m ipykernel install --user --name=<package>
 ```
 6-Run jupyter notebooks, note when you run the following command it does implicitly activate the virtual environment
 ```commandline
 poetry run jupyter notebook
 ```
+7-In your notebook target to your kernel created above
+
 
 
 ## Overview
 ### [Module 1: Introduction]
+- Predict New York taxi durations

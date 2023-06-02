@@ -12,6 +12,8 @@ python = "^3.8"
 ipykernel = "^6.23.1"
 pandas = "^2.0.2"
 seaborn = "^0.12.2"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
 
 
 [build-system]
