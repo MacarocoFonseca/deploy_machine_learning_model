@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "deploy-machine-learning-model"
+version = "0.1.0"
+description = ""
+authors = ["Tomas Fonseca <t.zuquete.f@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "deploy_machine_learning_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipykernel = "^6.23.1"
+pandas = "^2.0.2"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
