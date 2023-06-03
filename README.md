@@ -33,4 +33,4 @@ poetry run jupyter notebook
 
 ## Overview
 ### [Module 1: Introduction]
-- Predict New York taxi durations
+- Predict New York taxi durations using Linear Regression
