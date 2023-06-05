@@ -37,3 +37,6 @@ poetry run jupyter notebook
 
 ### [2: Experiment tracking]
 - Store Linear regression model performance and their parameters
+```commandline
+ mlflow ui  --backend-store-uri sqlite:///mlflow.db
+```
