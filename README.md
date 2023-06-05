@@ -1,4 +1,4 @@
-# Welcome to a repository focused on how to deploy Machine Learning models to production!
+# Welcome to a repository focused on deploying Machine Learning models to production!
 ## Overview
 
 ### Poetry Commands
@@ -29,8 +29,11 @@ poetry run jupyter notebook
 ```
 7-In your notebook target to your kernel created above
 
-
+![Machine Learning pipeline project design](images/ml_pipeline.png)
 
 ## Overview
-### [Module 1: Introduction]
+### [1: Introduction]
 - Predict New York taxi durations using Linear Regression
+
+### [2: Experiment tracking]
+- Store Linear regression model performance and their parameters
