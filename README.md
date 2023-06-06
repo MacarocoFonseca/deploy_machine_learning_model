@@ -1,7 +1,7 @@
 # Welcome to a repository focused on deploying Machine Learning models to production!
 
 ### Poetry Commands
-Run the following command line to start using Poetry:
+Run the following command line to start using Poetry:<br />
 1-Clean Cache
 ```commandline
 poetry cache clear --all pypi
@@ -26,7 +26,6 @@ python -m ipykernel install --user --name=<package>
 ```commandline
 poetry run jupyter notebook
 ```
-
 7-In your notebook, target to the new kernel created in <5> <br />
 8-To use mlflow ui which opens a new instance running sqlite in our backend.
 ```commandline
