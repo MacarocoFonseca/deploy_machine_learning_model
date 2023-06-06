@@ -1,5 +1,4 @@
 # Welcome to a repository focused on deploying Machine Learning models to production!
-## Overview
 
 ### Poetry Commands
 Run the following command line to start using Poetry:
@@ -28,7 +27,12 @@ python -m ipykernel install --user --name=<package>
 poetry run jupyter notebook
 ```
 7-In your notebook target to your kernel created above
+8-To use mlflow ui which opens a new instance running sqlite in our backend.
+```commandline
+mlflow ui  --backend-store-uri sqlite:///mlflow.db
+```
 
+## Project design
 ![Machine Learning pipeline project design](images/ml_pipeline.png)
 
 ## Overview
@@ -36,7 +40,7 @@ poetry run jupyter notebook
 - Predict New York taxi durations using Linear Regression
 
 ### [2: Experiment tracking]
-- Store Linear regression model performance and their parameters
+- Use Mlflow to track our model performance developed in [1: Introduction]
 ```commandline
  mlflow ui  --backend-store-uri sqlite:///mlflow.db
 ```
