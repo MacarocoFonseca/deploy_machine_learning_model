@@ -27,10 +27,6 @@ python -m ipykernel install --user --name=<package>
 poetry run jupyter notebook
 ```
 7-In your notebook, target to the new kernel created in <5> <br />
-8-To use mlflow ui which opens a new instance running sqlite in our backend.
-```commandline
-mlflow ui  --backend-store-uri sqlite:///mlflow.db
-```
 
 ## Project design
 ![Machine Learning pipeline project design](images/ml_pipeline.png)
@@ -44,3 +40,4 @@ mlflow ui  --backend-store-uri sqlite:///mlflow.db
 ```commandline
  mlflow ui  --backend-store-uri sqlite:///mlflow.db
 ```
+![M.L. model experiment tracking](images/ml_flow.png)
