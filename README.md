@@ -40,5 +40,14 @@ poetry run jupyter notebook
 ```commandline
  mlflow ui  --backend-store-uri sqlite:///mlflow.db
 ```
-## M.L. experiment tracking
+### M.L. experiment tracking
 ![M.L. model experiment tracking](images/ml_flow.png)
+
+### All xgboost model performances
+![xgboost_model_performances](images/mlflow_logs_tests_results.png)
+
+### All XGboost model heatmap
+![xgboost_model_heatmap](images/mlflow_logs_experiments.png)
+
+### Best XGboost model performance
+![best_xgboost_model_performance](images/mlflow_logs.png)
