@@ -86,3 +86,7 @@ Some benefits:
 - Visualize dependencies
 - Caching
 - Add collaborators to run ad hoc
+
+```commandline
+poetry add -D --dev <path-to-requirements.txt>
+```
