@@ -74,3 +74,15 @@ Some benefits:
 - Isolation
     - Define standard for naming experiments, models and a set of default tags
     - Restrict access to artifacts (e.g. use s3 buckets living in different AWS accounts)
+
+
+### [3: Orchestration]
+<b>Prefect</b> is the tool, it will solve:
+- Set up pipeline to train a model
+- Set up logging
+- Run everyday
+- Retry if fails
+- Send a message if succeeds
+- Visualize dependencies
+- Caching
+- Add collaborators to run ad hoc

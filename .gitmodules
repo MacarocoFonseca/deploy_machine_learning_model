@@ -1,0 +1,3 @@
+[submodule "03-orchestration/prefect-mlops-zoomcamp"]
+	path = 03-orchestration/prefect-mlops-zoomcamp
+	url = https://github.com/discdiver/prefect-mlops-zoomcamp.git
