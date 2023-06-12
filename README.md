@@ -56,3 +56,21 @@ curl -O https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2023-03.p
 
 ### Best XGboost model performance
 ![best_xgboost_model_performance](images/mlflow_logs.png)
+
+### Model management
+![model_management](images/model_management.png)
+
+#### Remote tracking server
+The tracking server can be easily deployed to the cloud
+Some benefits:
+- Share experiments with other data scientists
+- Collaborate with other to build and deploy models
+- Give more visibility of the data science efforts
+
+##### Issues with running a remote (shared) MLflow server
+- Security
+    -   Restrict access to the server (e.g. access through VPN)
+- Scalability
+- Isolation
+    - Define standard for naming experiments, models and a set of default tags
+    - Restrict access to artifacts (e.g. use s3 buckets living in different AWS accounts)
