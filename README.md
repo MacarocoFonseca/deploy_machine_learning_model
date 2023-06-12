@@ -58,7 +58,7 @@ curl -O https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2023-03.p
 ![best_xgboost_model_performance](images/mlflow_logs.png)
 
 ### Model management
-![model_regestry](images/model_regestry.png)
+![model_regestry](images/model_registry.png)
 
 #### Remote tracking server
 The tracking server can be easily deployed to the cloud
