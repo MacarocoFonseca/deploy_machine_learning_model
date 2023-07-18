@@ -27,11 +27,13 @@ python -m ipykernel install --user --name=<package>
 poetry run jupyter notebook
 ```
 7-In your notebook, target to the new kernel created in <5> <br />
-8-Get NYC taxi data for March 2023
+8-Get NYC taxi data for March 2023<br />
 ```commandline
 curl -O https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2023-03.parquet
 ```
-
+8-Add to your project dependencies, the requirements.txt file from another project
+1 - Navigate to the requirements.txt file path
+2 - ```commandline cat requirements.txt | xargs poetry add ```
 
 ## Project design
 ![Machine Learning pipeline project design](images/ml_pipeline.png)
