@@ -31,9 +31,9 @@ poetry run jupyter notebook
 ```commandline
 curl -O https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2023-03.parquet
 ```
-8-Add to your project dependencies, the requirements.txt file from another project
-1 - Navigate to the requirements.txt file path
-2 - ```commandline cat requirements.txt | xargs poetry add ```
+8-Add to your project dependencies, the requirements.txt file from another project <br />
+1 - Navigate to the requirements.txt file path <br />
+2 - ```commandline cat requirements.txt | xargs poetry add ``` <br />
 
 ## Project design
 ![Machine Learning pipeline project design](images/ml_pipeline.png)
